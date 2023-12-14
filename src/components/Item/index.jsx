@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import './style.css';
 export default function Item({ item }) {
     return (
-        <div className='item' key={item.id}>
+        <div className='item'>
             <div className='float-left'>
                 <strong>{item.title}</strong><br />
                 Qtd: {item.quantity}

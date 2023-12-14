@@ -19,7 +19,7 @@ export default function Produto({ produto }) {
         alert('Adicionado!');
     }
     return (
-        <div className='produto' key={produto.id}>
+        <div className='produto'>
             <img className='img-produto' src={produto.thumbnail} />
             <p><strong>{produto.title} ({produto.brand})</strong></p>
             <p>R$ {produto.price}</p>

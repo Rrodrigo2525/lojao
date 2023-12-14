@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from '../axios';
 import Pedido from '../components/Pedido';
+
 export default function Pedidos() {
     const usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));
     const [pedidos, setPedidos] = useState([]);
